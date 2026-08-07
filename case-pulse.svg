@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="bgP" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141815"/>
+      <stop offset="100%" stop-color="#0b0b0a"/>
+    </linearGradient>
+    <linearGradient id="glowP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bgP)"/>
+  <rect width="900" height="360" fill="url(#glowP)"/>
+  <!-- Browser chrome mockup -->
+  <rect x="150" y="130" width="600" height="380" rx="14" fill="#111310" stroke="#2c2f2a" stroke-width="2"/>
+  <rect x="150" y="130" width="600" height="42" rx="14" fill="#181a17"/>
+  <circle cx="176" cy="151" r="5" fill="#3a3d38"/>
+  <circle cx="196" cy="151" r="5" fill="#3a3d38"/>
+  <circle cx="216" cy="151" r="5" fill="#3a3d38"/>
+  <!-- Pulse / heartbeat line -->
+  <polyline points="190,330 250,330 280,260 320,400 360,300 400,330 720,330"
+    fill="none" stroke="#22C55E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- CTA button -->
+  <rect x="380" y="400" width="140" height="42" rx="21" fill="#22C55E"/>
+  <text x="450" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#0b0b0a" font-weight="700">JOIN NOW</text>
+  <text x="450" y="600" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#8f8f89" letter-spacing="4">PULSE FITNESS</text>
+  <text x="450" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5f5f5a" letter-spacing="3">WEB &amp; BOOKING PLATFORM</text>
+</svg>

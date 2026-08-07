@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151513"/>
+      <stop offset="100%" stop-color="#0b0b0a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="620" fill="url(#bg)"/>
+  <rect width="800" height="341" fill="url(#glow)"/>
+  <g stroke="#2a2a26" stroke-width="1"><line x1="0" y1="103" x2="800" y2="103"/><line x1="0" y1="206" x2="800" y2="206"/><line x1="0" y1="310" x2="800" y2="310"/><line x1="0" y1="413" x2="800" y2="413"/><line x1="0" y1="516" x2="800" y2="516"/></g>
+  <g transform="translate(400.0,280) scale(1.4761904761904763)"><g fill="none" stroke="#22C55E" stroke-width="5" stroke-linejoin="round"><rect x="-170" y="-110" width="150" height="110" rx="6"/><rect x="20" y="-110" width="150" height="70" rx="6" fill="#22C55E" stroke="none" opacity="0.7"/><rect x="-170" y="20" width="90" height="90" rx="45" fill="#22C55E" stroke="none" opacity="0.5"/><rect x="-60" y="20" width="140" height="90" rx="6"/><rect x="100" y="-20" width="70" height="130" rx="6"/></g></g>
+  <text x="400.0" y="550" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#8f8f89" letter-spacing="3">BRAND MOODBOARD</text>
+  <text x="400.0" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5f5f5a" letter-spacing="2.5">IDENTITY & STRATEGY</text>
+</svg>

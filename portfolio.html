@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Master Brand Creators</title>
+<meta name="description" content="Browse branding, web, and marketing projects from the Master Brand Creators portfolio.">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Loader -->
+<div class="scroll-progress" aria-hidden="true"></div>
+<div class="loader" aria-hidden="true">
+  <div class="loader-mark"><img src="logo.webp" alt=""></div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  <div class="loader-percent">0%</div>
+</div>
+
+<!-- Custom cursor -->
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="nav-logo magnetic-target" aria-label="Master Brand Creators — home">
+      <img src="logo.webp" alt="Master Brand Creators" class="mark"></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    <div class="nav-cta-wrap">
+      <a href="contact.html" class="btn btn-primary magnetic-target">
+        Start a project
+        <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" id="navToggle">
+        <span class="nav-toggle-label" aria-hidden="true">
+          <span class="label-open">Menu</span>
+          <span class="label-close">Close</span>
+        </span>
+        <span class="nav-toggle-box" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<nav class="mobile-menu" aria-label="Mobile" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-links">
+      <a href="portfolio.html"><span class="mm-index">01</span><span class="mm-text">Portfolio</span><span class="mm-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="services.html"><span class="mm-index">02</span><span class="mm-text">Services</span><span class="mm-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="about.html"><span class="mm-index">03</span><span class="mm-text">About</span><span class="mm-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="pricing.html"><span class="mm-index">04</span><span class="mm-text">Pricing</span><span class="mm-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="blog.html"><span class="mm-index">05</span><span class="mm-text">Blog</span><span class="mm-arrow" aria-hidden="true">&rarr;</span></a>
+      <a href="contact.html"><span class="mm-index">06</span><span class="mm-text">Contact</span><span class="mm-arrow" aria-hidden="true">&rarr;</span></a>
+    </div>
+    <div class="mobile-menu-footer">
+      <div class="mobile-menu-contact">
+        <span class="mm-label">Get in touch</span>
+        <a href="mailto:hello@masterbrandcreators.com">hello@masterbrandcreators.com</a>
+        <a href="tel:+922112345678">+92 21 1234 5678</a>
+      </div>
+      <div class="mobile-menu-socials">
+        <span class="mm-label">Follow</span>
+        <div class="mm-social-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Behance">Behance</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+  <section class="page-hero" aria-label="Portfolio introduction">
+    <div class="hero-bg-glow" aria-hidden="true"></div>
+    <img src="logo-cropped.png" alt="" class="page-hero-mark" aria-hidden="true">
+    <p class="eyebrow">Portfolio</p>
+    <h1>Selected work, across every discipline.</h1>
+    <p class="lead">A running archive of brand identities, websites, and campaigns we've shipped for clients across retail, hospitality, logistics, and wellness.</p>
+  </section>
+
+  <section aria-label="Project grid">
+    <div class="filter-bar" role="group" aria-label="Filter projects by category">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="desktop">Desktop Apps</button>
+      <button class="filter-btn" data-filter="enterprise">Enterprise Systems</button>
+      <button class="filter-btn" data-filter="web">Web &amp; E-Commerce</button>
+    </div>
+
+    <div class="masonry reveal-stagger">
+      <div class="masonry-item" data-case="case-study-finance.html" data-category="desktop">
+        <img src="port-finance.webp" alt="Financial Operations Platform desktop application" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Desktop Application</span>
+          <h4>Financial Operations Platform</h4>
+          <p class="work-desc">A secure desktop application designed for financial management, investment tracking, reporting, and operational workflows with an intuitive user interface.</p>
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">View Project</span>
+        </div>
+      </div>
+      <div class="masonry-item" data-case="case-study-education.html" data-category="web">
+        <img src="port-education.webp" alt="Education Management Platform web application" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Web Application</span>
+          <h4>Education Management Platform</h4>
+          <p class="work-desc">A comprehensive institute management system that streamlines student enrollment, academic operations, finance, and administrative processes.</p>
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">View Project</span>
+        </div>
+      </div>
+      <div class="masonry-item" data-case="case-study-marketing-automation.html" data-category="desktop">
+        <img src="port-marketing.webp" alt="Marketing Automation Platform desktop application" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Desktop Application</span>
+          <h4>Marketing Automation Platform</h4>
+          <p class="work-desc">An advanced email and SMS marketing solution with campaign management, scheduling, template customization, and performance tracking.</p>
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">View Project</span>
+        </div>
+      </div>
+      <div class="masonry-item" data-case="case-study-helpdesk.html" data-category="enterprise">
+        <img src="port-helpdesk.webp" alt="Helpdesk and Asset Management System dashboard" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Enterprise Management System</span>
+          <h4>Helpdesk &amp; Asset Management System</h4>
+          <p class="work-desc">A centralized platform for helpdesk operations, inventory control, asset tracking, task management, and business support workflows.</p>
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">View Project</span>
+        </div>
+      </div>
+      <div class="masonry-item" data-case="case-study-softphone.html" data-category="desktop">
+        <img src="port-softphone.webp" alt="Enterprise Softphone Solution desktop application" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Desktop Communication App</span>
+          <h4>Enterprise Softphone Solution</h4>
+          <p class="work-desc">A SIP-based communication application offering secure voice calling, contact management, call history, and enterprise connectivity.</p>
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">View Project</span>
+        </div>
+      </div>
+      <div class="masonry-item" data-case="case-study-filesync.html" data-category="desktop">
+        <img src="port-filesync.webp" alt="File Synchronization Manager desktop utility" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Desktop Utility</span>
+          <h4>File Synchronization Manager</h4>
+          <p class="work-desc">A desktop solution for automated file synchronization, secure data transfers, scheduled backups, and system monitoring.</p>
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">View Project</span>
+        </div>
+      </div>
+      <div class="masonry-item" data-case="case-study-network.html" data-category="desktop">
+        <img src="port-network.webp" alt="Network Monitoring Platform desktop application" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Network Management System</span>
+          <h4>Network Monitoring Platform</h4>
+          <p class="work-desc">A real-time network monitoring application for device management, bandwidth analysis, uptime monitoring, and infrastructure performance.</p>
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">View Project</span>
+        </div>
+      </div>
+      <a href="https://aura.datextile.com/" target="_blank" rel="noopener noreferrer" class="masonry-item" data-case="case-study-ecommerce-store.html" data-category="web">
+        <img src="port-ecommerce-store.webp" alt="Premium E-Commerce Store website" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">E-Commerce Website</span>
+          <h4>Premium E-Commerce Store</h4>
+          <p class="work-desc">A modern online shopping platform featuring responsive design, secure checkout, intuitive navigation, and seamless product browsing.</p>
+          <span class="btn btn-primary">View Project</span>
+        </div>
+      </a>
+      <a href="https://gatbi.ae/" target="_blank" rel="noopener noreferrer" class="masonry-item" data-case="case-study-retail-marketplace.html" data-category="web">
+        <img src="port-retail-marketplace.webp" alt="Online Retail Marketplace website" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">E-Commerce Website</span>
+          <h4>Online Retail Marketplace</h4>
+          <p class="work-desc">A scalable online retail platform built to deliver a smooth shopping experience with efficient product management and secure transactions.</p>
+          <span class="btn btn-primary">View Project</span>
+        </div>
+      </a>
+      <a href="https://ceonocra.com/" target="_blank" rel="noopener noreferrer" class="masonry-item" data-case="case-study-corporate.html" data-category="web">
+        <img src="port-corporate-platform.webp" alt="Corporate Business Platform website" loading="lazy">
+        <div class="masonry-overlay">
+          <span class="work-tag">Corporate Website</span>
+          <h4>Corporate Business Platform</h4>
+          <p class="work-desc">A professional business website showcasing corporate services, company expertise, client engagement, and digital business solutions.</p>
+          <span class="btn btn-primary">View Project</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="cta-section" aria-label="Get in touch">
+    <div class="cta-glow" aria-hidden="true"></div>
+    <h2>Like what you see?</h2>
+    <p>Let's talk about what we'd build for you.</p>
+    <a href="contact.html" class="btn btn-primary magnetic-target">Start a project <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+  </section>
+
+</main>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo"><img src="logo.webp" alt="Master Brand Creators" class="mark"></a>
+      <p>Creative branding. High-converting websites. Marketing that delivers results.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Studio</h5>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+    <div class="footer-col">
+      <h5>Resources</h5>
+      <a href="blog.html">Blog</a>
+      <a href="case-study.html">Case Studies</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+    <div class="footer-col footer-newsletter">
+      <h5>Stay in the loop</h5>
+      <form aria-label="Newsletter signup">
+        <label for="newsletter-email" style="position:absolute;left:-9999px;">Email address</label>
+        <input id="newsletter-email" type="email" placeholder="Your email" required>
+        <button type="submit">Join &rarr;</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>&copy; 2026 Master Brand Creators. All rights reserved.</span>
+    <div class="footer-socials" aria-label="Social media">
+      <a href="https://www.instagram.com/masterbrandcreators2026/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram">Instagram</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+    <button class="back-to-top" aria-label="Back to top">&uarr;</button>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
+

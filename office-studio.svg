@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 620">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151513"/>
+      <stop offset="100%" stop-color="#0b0b0a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="620" fill="url(#bg)"/>
+  <rect width="1400" height="341" fill="url(#glow)"/>
+  <g stroke="#2a2a26" stroke-width="1"><line x1="0" y1="103" x2="1400" y2="103"/><line x1="0" y1="206" x2="1400" y2="206"/><line x1="0" y1="310" x2="1400" y2="310"/><line x1="0" y1="413" x2="1400" y2="413"/><line x1="0" y1="516" x2="1400" y2="516"/></g>
+  <g transform="translate(700.0,280) scale(1.4761904761904763)"><g fill="none" stroke="#C9A876" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"><rect x="-100" y="-150" width="200" height="270" rx="4"/><line x1="-60" y1="-100" x2="-60" y2="-60"/><line x1="0" y1="-100" x2="0" y2="-60"/><line x1="60" y1="-100" x2="60" y2="-60"/><line x1="-60" y1="-20" x2="-60" y2="20"/><line x1="0" y1="-20" x2="0" y2="20"/><line x1="60" y1="-20" x2="60" y2="20"/><rect x="-30" y="60" width="60" height="60"/></g></g>
+  <text x="700.0" y="550" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#8f8f89" letter-spacing="3">OUR STUDIO</text>
+</svg>

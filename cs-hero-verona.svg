@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151513"/>
+      <stop offset="100%" stop-color="#0b0b0a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22C55E" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="700" fill="url(#bg)"/>
+  <rect width="1400" height="385" fill="url(#glow)"/>
+  <g stroke="#2a2a26" stroke-width="1"><line x1="0" y1="116" x2="1400" y2="116"/><line x1="0" y1="233" x2="1400" y2="233"/><line x1="0" y1="350" x2="1400" y2="350"/><line x1="0" y1="466" x2="1400" y2="466"/><line x1="0" y1="583" x2="1400" y2="583"/></g>
+  <g transform="translate(700.0,300) scale(1.0)"><g fill="none" stroke="#C9A876" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"><rect x="-160" y="-60" width="320" height="120" rx="10"/><line x1="0" y1="60" x2="0" y2="140"/><line x1="-40" y1="140" x2="40" y2="140"/><line x1="-110" y1="0" x2="110" y2="0"/></g></g>
+  <text x="700.0" y="630" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#8f8f89" letter-spacing="3">VERONA INTERIORS</text>
+  <text x="700.0" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5f5f5a" letter-spacing="2.5">SHOWROOM SIGNAGE</text>
+</svg>
